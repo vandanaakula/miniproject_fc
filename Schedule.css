@@ -1,0 +1,60 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto; /* Added margin to create space between navbar and form */
+    padding: 20px;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    background-color:#B7C9F2; /* Light gray background */
+    text-align: center; /* Center the form */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color for heading */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: black; /* Dark color for labels */
+  }
+  
+  input[type="text"],
+  select {
+    width: calc(100% - 20px); /* Adjusted width for input/select */
+    padding: 10px;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white; /* White background */
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: center;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Blue submit button */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #378CE7; /* Professional blue color */
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+.choicedivfirst {
+width: 200px; 
+height: 50px;
+background-color:lightslategray;
+text-align: center;
+display:flex;
+justify-content: center;
+margin-left: 70px;
+}
+.choicedivsecond {
+  width: 200px; 
+  height: 50px;
+  background-color:lightslategray;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 70px;
+  }
+.login {
+  font-size: 3rem;
+  margin-bottom: 175px;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  color: darkgreen;
+}
+
+
+.choicedivfirst a,
+.choicedivsecond a {
+  text-decoration: none;
+  color: black;
+}
+.choicediv{
+  /* Set width and height */
+  border: 3px solid lightslategray;
+  width: 350px; /* Set width to 200 pixels */
+  height: 300px; /* Set height to 100 pixels */
+
+
+}
